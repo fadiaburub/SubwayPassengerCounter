@@ -9,7 +9,7 @@ function incrementPassengerCount() {
 
 function savePassengerCount() {
     let countStr = passengerCount + " - ";
-    saveElement.textContent = countStr;
+    saveElement.textContent += countStr;
     countElement.textContent = 0;
     passengerCount = 0;
 }
